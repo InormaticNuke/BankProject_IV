@@ -13,6 +13,7 @@ public class OBSERVER_ALARM implements INTERFACE_SUBJECT{
         
     }
 
+
     @Override
     public void dettach(INTERFACE_UPDATE observador) {
         

@@ -2,7 +2,7 @@ package bankproject_iv;
 
 import java.time.LocalDate;
 
-public class Applicant {
+public class Applicant implements INTERFACE_UPDATE {
 
     private String rut;
     private String firstName;
@@ -81,6 +81,10 @@ public class Applicant {
     
     public LocalDate getRegistrationDate() {
         return registrationDate;
+    }
+    
+    public void update(){
+        System.out.println("Your credit results are ready");
     }
 
 }

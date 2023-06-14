@@ -6,6 +6,11 @@ import java.util.Date;
 public class BankProject_IV{
     public static void main(String[] args) {
         
+        
+        OBSERVER_ALARM alarma1 = new OBSERVER_ALARM();
+        alarma1.attach(new Applicant());
+        
+        
         Applicant applicant1 = new Applicant();
         applicant1.setRut("209074168");
         applicant1.setFirstName("Manuel");
@@ -14,6 +19,8 @@ public class BankProject_IV{
         applicant1.setHomeAddress("Av Providencia");
         applicant1.setWorkAddress("Los Militares 6836");
         applicant1.setRegistrationDate(LocalDate.now());
+
+        
 
 
         CreditFactory creditFactory = CreditFactory.getInstance();
