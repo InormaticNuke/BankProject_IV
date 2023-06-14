@@ -2,6 +2,7 @@ package bankproject_iv;
 
 import java.time.LocalDate;
 
+/*
 public class BankDatabase {
     public boolean checkClientValidity(Applicant applicant) {
         // Verificar la antigüedad mínima del cliente (6 meses)
@@ -19,3 +20,4 @@ public class BankDatabase {
         return applicant.getRut().equals("123456789") && loanAmount <= (1.5 * clientSalary);
     }
 }
+*/

@@ -74,6 +74,10 @@ public class Applicant {
     public void setWorkAddress(String workAddress) {
         this.workAddress = workAddress;
     }
+
+    public void setRegistrationDate(LocalDate registrationDate) {
+        this.registrationDate = registrationDate;
+    }
     
     public LocalDate getRegistrationDate() {
         return registrationDate;

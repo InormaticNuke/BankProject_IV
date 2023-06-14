@@ -17,9 +17,9 @@ public class CreditFactory {
     public Credit createCredit(String type) {
         if (type.equalsIgnoreCase("personal")) {
             return new PersonalCredit();
-        } else if (type.equalsIgnoreCase("hipotecario")) {
+        } else if (type.equalsIgnoreCase("mortgage")) {
             return new MortgageCredit();
-        } else if (type.equalsIgnoreCase("automotriz")) {
+        } else if (type.equalsIgnoreCase("automotive")) {
             return new AutomotiveCredit();
         } else {
             throw new IllegalArgumentException("Tipo de crédito no válido.");
